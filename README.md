@@ -20,11 +20,17 @@ This is a test automation framework built with **Playwright**, **Mocha**, **Type
 
 cover_go/
 
+├── elements/ # Custom element class
+
+├── logs/ # Test logs
+
+├── mocha-report/ # HTML reports (after test run)
+
 ├── pages/ # Page Object Model classes for UI/API
 
 ├── tests/ # Test files (.test.ts)
 
-├── mocha-report/ # HTML reports (after test run)
+├── utils/ # Utilities class
 
 ├── tsconfig.json # TypeScript compiler config
 
@@ -44,26 +50,29 @@ cover_go/
 
 ## ⚙️ Setup Instructions
 
-1. **Clone the repo**
+
 
 ```bash
+Clone the repo
 git clone https://github.com/shohel677/playwright-with-typescript.git
-cd repo
-Install dependencies
+cd repo and switch to master branch
 
+Install dependencies
 npm install
 
 Run all testcases
 npm test -- --browser=chromium --headless=false --url=https://demoqa.com
 
-Run UI testcases
+Run only UI testcases
 npm test -- --browser=chromium --headless=false --url=https://demoqa.com --grep '\[testcase_ui\]'
 
 Run only api testcases
 npm test -- --browser=chromium --headless=false --url=https://demoqa.com --grep '\[testcase_api\]'
 
 You can pass --browser, --headless, and --url as CLI args.
-
+browser value can be firefox, webkit or chromium
+headless accept boolean value
+````
 API Test
 API test examples are inside tests/demo_qa_api.test.ts, and use Axios.
 
