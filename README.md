@@ -53,25 +53,27 @@ cover_go/
 
 
 ```bash
-Clone the repo
-git clone https://github.com/shohel677/playwright-with-typescript.git
-cd repo and switch to master branch
-
-Install dependencies
-npm install
-
-Run all testcases
-npm test -- --browser=chromium --headless=false --url=https://demoqa.com
-
-Run only UI testcases
-npm test -- --browser=chromium --headless=false --url=https://demoqa.com --grep '\[testcase_ui\]'
-
-Run only api testcases
-npm test -- --browser=chromium --headless=false --url=https://demoqa.com --grep '\[testcase_api\]'
-
-You can pass --browser, --headless, and --url as CLI args.
-browser value can be firefox, webkit or chromium
-headless accept boolean value
+        Clone the repo
+        git clone https://github.com/shohel677/playwright-with-typescript.git
+        cd repo and switch to master branch
+        
+        Install dependencies
+        npm install
+        
+        Run all testcases
+        npm test -- --browser=chromium --headless=false --url=https://demoqa.com
+        
+        Run only UI testcases
+        npm test -- --browser=chromium --headless=false --url=https://demoqa.com --grep '\[testcase_ui\]'
+        
+        Run only api testcases
+        npm test -- --browser=chromium --headless=false --url=https://demoqa.com --grep '\[testcase_api\]'
+        
+        You can pass --browser, --headless, --url and --grep as CLI args.
+        --browser value can be firefox, webkit or chromium
+        --headless accept boolean value
+        --url tenant url
+        --grep test tag
 ````
 API Test
 API test examples are inside tests/demo_qa_api.test.ts, and use Axios.
