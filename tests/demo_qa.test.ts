@@ -1,4 +1,3 @@
-import { expect } from 'chai';
 import { BasePage } from '../pages/base_page';
 import { HomePage } from '../pages/home_page';
 import {PracticeFormPage} from "../pages/practice_form_page";
@@ -19,7 +18,7 @@ describe('Demo QA Test Suite', function () {
         homePage = new HomePage(page);
         practiceFormPage = new PracticeFormPage(page);
         webTablePage = new WebTablePage(page);
-        await homePage.goto(basePage.baseURL);
+        await homePage.goto();
         console.log('✅ Initialization complete');
     });
 
@@ -29,14 +28,14 @@ describe('Demo QA Test Suite', function () {
 
     });
 
-    it('Test to check form', async () => {
+    it('[testcase_ui] Test to check form', async () => {
         await homePage.navigateToFormPage();
         await practiceFormPage.fillForm();
         await practiceFormPage.verifyDataUpdatedOnForm();
     });
 
-    it('Test to check web table', async () => {
-        await webTablePage.navigate();
+    it('[testcase_ui] Test to check web table', async () => {
+        await homePage.navigateToWebTablePage();
         await webTablePage.clickAddButton();
 
         await webTablePage.fillForm();

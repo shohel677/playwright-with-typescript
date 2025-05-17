@@ -1,5 +1,5 @@
 {
-  "name": "cover_go",
+  "name": "playwright-typescript-mocha-ui-api",
   "version": "1.0.0",
   "description": "Playwright automation framework using TypeScript, Mocha, and Page Object Model",
   "scripts": {
@@ -10,9 +10,10 @@
     "@types/minimist": "^1.2.5",
     "@types/mocha": "^10.0.1",
     "@types/node": "^20.11.19",
-    "chai": "^4.3.7",
+    "axios": "^1.9.0",
+    "chai": "^4.5.0",
     "minimist": "^1.2.8",
-    "mocha": "^10.2.0",
+    "mocha": "^10.8.2",
     "mochawesome": "^7.1.3",
     "playwright": "^1.43.1",
     "ts-node": "^10.9.2",

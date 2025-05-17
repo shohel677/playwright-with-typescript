@@ -1,26 +1,20 @@
 import { Browser, chromium, firefox, webkit, Page } from 'playwright';
-import minimist from 'minimist';
-import { Logger } from '../utils/logger';
+import {Utils} from "../utils/utils";
 
-const args = minimist(process.argv.slice(2));
-
-export class BasePage {
+export class BasePage extends Utils{
     private browser!: Browser;
     private page!: Page;
-    public baseURL: string;
-    private readonly logger: Logger = new Logger();
 
     constructor() {
-        this.baseURL = args.url || 'https://demoqa.com/';
+        super();
     }
 
     async initialize(): Promise<Page> {
-        const browserType = args.browser?.toLowerCase() || 'chromium';
-        const headless = args.headless !== 'false';
+        const headless = this.headless;
 
-        this.logger.info(`Launching browser: ${browserType}, headless: ${headless}`);
+        Utils.logger.info(`Launching browser: ${this.browserType}, headless: ${this.headless}`);
 
-        switch (browserType) {
+        switch (this.browserType) {
             case 'firefox':
                 this.browser = await firefox.launch({ headless });
                 break;
@@ -39,6 +33,6 @@ export class BasePage {
 
     async close(): Promise<void> {
         await this.browser.close();
-        this.logger.info('Browser closed ###################################');
+        Utils.logger.info('Browser closed ###################################');
     }
 }

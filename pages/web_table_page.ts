@@ -1,8 +1,9 @@
 import { Page, Locator, expect } from '@playwright/test';
 import {Button} from "../elements/button";
 import {Input} from "../elements/input";
+import {Utils} from "../utils/utils";
 
-export class WebTablePage {
+export class WebTablePage extends Utils{
     readonly page: Page;
     readonly addButton: Button;
     readonly submitButton: Button;
@@ -15,6 +16,7 @@ export class WebTablePage {
     readonly tableBodyRows: Locator;
 
     constructor(page: Page) {
+        super();
         this.page = page;
         this.addButton = new Button(page.locator("#addNewRecordButton"), "Add entry button");
         this.submitButton = new Button(page.getByRole("button", { name: "Submit" }), "Submit button");
@@ -25,11 +27,6 @@ export class WebTablePage {
         this.salaryInput = new Input(page.getByPlaceholder("Salary"), "Salary");
         this.departmentInput = new Input(page.getByPlaceholder("Department"), "Department");
         this.tableBodyRows = page.locator("//div[@class='rt-tbody']/div/div[@role='row']");
-
-    }
-
-    async navigate() {
-        await this.page.goto('https://demoqa.com/webtables');
     }
 
     async clickAddButton() {
@@ -37,7 +34,6 @@ export class WebTablePage {
     }
 
     async fillForm() {
-
         await this.firstNameInput.clearAndFill("John");
         await this.lastNameInput.clearAndFill("Doe");
         await this.emailInput.clearAndFill("john@webtable.org");
@@ -45,7 +41,6 @@ export class WebTablePage {
         await this.salaryInput.clearAndFill("5000");
         await this.departmentInput.clearAndFill("QA");
         await this.submitForm();
-
     }
 
     async submitForm() {
@@ -60,7 +55,6 @@ export class WebTablePage {
            if(email == "john@webtable.org"){
                return this.tableBodyRows.nth(i)
            }
-
         }
         return null;
     }
@@ -68,23 +62,23 @@ export class WebTablePage {
     async editLastRow() {
         const row = await this.getTheRow();
         if(row){
+            Utils.logger.info("Updating the table entry")
             await row.locator("span[title='Edit']").click();
             await this.salaryInput.clearAndFill("6000");
             await this.departmentInput.clearAndFill("Sr. QA");
             await this.submitForm();
         }
-
     }
 
     async deleteLastRow() {
         const row = await this.getTheRow();
         if(row){
+            Utils.logger.info("Deleting the entry");
             await row.locator("span[title='Delete']").click();
             const deletedText = await row.textContent();
             expect(deletedText).not.toContain('john@webtable.org');
-
+            Utils.logger.info("Deleted the entry");
         }
-
     }
 
     async dataBeforeUpdate() :Promise<string []> {
@@ -104,11 +98,15 @@ export class WebTablePage {
     }
     async verifyRowValuesBeforeUpdate() {
         const data  = await this.dataBeforeUpdate();
+        Utils.logger.info("Verifying row is created successfully with new entry");
         await this.verifyRowValues(data);
+        Utils.logger.info("Verified row is created successfully with new entry");
 
     }
     async verifyRowValuesAfterUpdate() {
+        Utils.logger.info("Verifying row is updated successfully");
         const data  = await this.dataAfterUpdate();
         await this.verifyRowValues(data);
+        Utils.logger.info("Verified row is updated successfully");
     }
 }

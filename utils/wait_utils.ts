@@ -4,7 +4,7 @@ import {Logger} from "./logger";
 export class WaitUtils {
     private static logger: Logger = new Logger();
 
-    static async waitForVisibility (locator: Locator, timeout: number = 30000): Promise<void> {
+    static async waitForVisibility (locator: Locator, timeout: number = 20000): Promise<void> {
         await expect(locator).toBeVisible({ timeout });
     }
 
@@ -16,17 +16,8 @@ export class WaitUtils {
         await expect(locator).toHaveText(text, { timeout });
     }
 
-    static async waitForHidden (locator: Locator, timeout: number = 5000): Promise<void> {
-        await expect(locator).toBeHidden({ timeout });
-    }
-
-
     static async waitForUrlContains (page: Page, partialUrl: string, timeout: number = 30000): Promise<void> {
         await page.waitForURL(`**/*${partialUrl}*`, { timeout });
-    }
-
-    static async waitForSelector (page: Page, selector: string, timeout: number = 5000): Promise<ElementHandle<SVGElement | HTMLElement>> {
-        return await page.waitForSelector(selector, { timeout });
     }
 
     static async pause (page: Page, milliseconds: number): Promise<void> {
