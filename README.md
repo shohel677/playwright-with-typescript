@@ -75,23 +75,23 @@ root/
         --url tenant url
         --grep test tag
 ````
-API Test
+### API Test
 API test examples are inside tests/demo_qa_api.test.ts, and use Axios.
 
-UI Test
+### UI Test
 UI test examples are inside tests/demo_qa.test.ts
 
-Test Reports
+### Test Reports
 After running tests, a beautiful HTML report is generated in:
 mocha-report/report.html
 
-Test Scenarios
-UI:
+### Test Scenarios
+#### UI:
 Add, update, and delete rows from the Web Tables.
 
 Submit form data and verify input.
 
-API:
+#### API:
 Create user account
 
 Generate token
@@ -100,5 +100,5 @@ Get books list
 
 Add/delete books for user
 
-Questions?
+### Questions?
 Feel free to open an issue or reach out.
