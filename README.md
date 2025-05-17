@@ -18,7 +18,7 @@ This is a test automation framework built with **Playwright**, **Mocha**, **Type
 
 ## 📁 Project Structure
 
-cover_go/
+root/
 
 ├── elements/ # Custom element class
 
