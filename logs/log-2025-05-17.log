@@ -1,0 +1,591 @@
+[INFO] 2025-05-17T05:16:11.571Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:16:12.534Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:16:15.529Z - Clicking element : Form card
+[INFO] 2025-05-17T05:16:15.823Z - Clicked element : Form card
+[INFO] 2025-05-17T05:16:15.824Z - Clicking element : Form link
+[INFO] 2025-05-17T05:16:16.140Z - Clicked element : Form link
+[INFO] 2025-05-17T05:16:17.472Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:16:17.558Z - Filled value : John
+[INFO] 2025-05-17T05:16:17.560Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:16:17.639Z - Filled value : Doe
+[INFO] 2025-05-17T05:16:17.640Z - Clearing and filling for label: Email address
+[INFO] 2025-05-17T05:16:17.729Z - Filled value : john.doe@example.com
+[INFO] 2025-05-17T05:16:17.731Z - Clicking element : Gender
+[INFO] 2025-05-17T05:16:17.783Z - Clicked element : Gender
+[INFO] 2025-05-17T05:16:17.784Z - Clearing and filling for label: Mobile number
+[INFO] 2025-05-17T05:16:17.872Z - Filled value : 1234567890
+[INFO] 2025-05-17T05:16:18.084Z - Filling for label: Subject
+[INFO] 2025-05-17T05:16:18.105Z - Filled value : Maths
+[INFO] 2025-05-17T05:16:20.122Z - Clicking element : Subject Option
+[INFO] 2025-05-17T05:16:20.251Z - Clicked element : Subject Option
+[INFO] 2025-05-17T05:16:20.256Z - Checking element : Hobby checkbox Option
+[INFO] 2025-05-17T05:16:20.297Z - Checked element : Hobby checkbox Option
+[INFO] 2025-05-17T05:16:20.327Z - Filling for label: Current address
+[INFO] 2025-05-17T05:16:20.351Z - Filled value : 123 Main Street, City
+[INFO] 2025-05-17T05:16:20.353Z - Clicking element : State dropdown
+[INFO] 2025-05-17T05:16:20.528Z - Clicked element : State dropdown
+[INFO] 2025-05-17T05:16:20.595Z - Clicking element : City dropdown
+[INFO] 2025-05-17T05:16:20.648Z - Clicked element : City dropdown
+[INFO] 2025-05-17T05:16:20.707Z - Clicking element : Submit Button
+[INFO] 2025-05-17T05:16:20.770Z - Clicked element : Submit Button
+[INFO] 2025-05-17T05:16:20.779Z - Value John Doe found on submitted form modal for label Student Name
+[INFO] 2025-05-17T05:16:20.785Z - Value john.doe@example.com found on submitted form modal for label Student Email
+[INFO] 2025-05-17T05:16:20.790Z - Value Male found on submitted form modal for label Gender
+[INFO] 2025-05-17T05:16:20.799Z - Value 1234567890 found on submitted form modal for label Mobile
+[INFO] 2025-05-17T05:16:20.807Z - Value 15 May,1995 found on submitted form modal for label Date of Birth
+[INFO] 2025-05-17T05:16:20.817Z - Value Maths found on submitted form modal for label Subjects
+[INFO] 2025-05-17T05:16:20.824Z - Value Sports found on submitted form modal for label Hobbies
+[INFO] 2025-05-17T05:16:20.832Z - Value picture.jpg found on submitted form modal for label Picture
+[INFO] 2025-05-17T05:16:20.837Z - Value 123 Main Street, City found on submitted form modal for label Address
+[INFO] 2025-05-17T05:16:20.843Z - Value NCR Delhi found on submitted form modal for label State and City
+[INFO] 2025-05-17T05:16:21.173Z - Browser closed ###################################
+[INFO] 2025-05-17T05:16:21.176Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:16:39.503Z - Browser closed ###################################
+[INFO] 2025-05-17T05:17:35.389Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:17:35.822Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:17:41.444Z - Clicking element : Form card
+[INFO] 2025-05-17T05:17:41.607Z - Clicked element : Form card
+[INFO] 2025-05-17T05:17:41.609Z - Clicking element : Form link
+[INFO] 2025-05-17T05:17:41.680Z - Clicked element : Form link
+[INFO] 2025-05-17T05:17:44.138Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:17:44.234Z - Filled value : John
+[INFO] 2025-05-17T05:17:44.235Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:17:44.327Z - Filled value : Doe
+[INFO] 2025-05-17T05:17:44.328Z - Clearing and filling for label: Email address
+[INFO] 2025-05-17T05:17:44.413Z - Filled value : john.doe@example.com
+[INFO] 2025-05-17T05:17:44.414Z - Clicking element : Gender
+[INFO] 2025-05-17T05:17:44.475Z - Clicked element : Gender
+[INFO] 2025-05-17T05:17:44.476Z - Clearing and filling for label: Mobile number
+[INFO] 2025-05-17T05:17:44.553Z - Filled value : 1234567890
+[INFO] 2025-05-17T05:17:44.744Z - Filling for label: Subject
+[INFO] 2025-05-17T05:17:44.763Z - Filled value : Maths
+[INFO] 2025-05-17T05:17:46.767Z - Clicking element : Subject Option
+[INFO] 2025-05-17T05:17:46.805Z - Clicked element : Subject Option
+[INFO] 2025-05-17T05:17:46.809Z - Checking element : Hobby checkbox Option
+[INFO] 2025-05-17T05:17:46.855Z - Checked element : Hobby checkbox Option
+[INFO] 2025-05-17T05:17:46.873Z - Filling for label: Current address
+[INFO] 2025-05-17T05:17:46.889Z - Filled value : 123 Main Street, City
+[INFO] 2025-05-17T05:17:46.890Z - Clicking element : State dropdown
+[INFO] 2025-05-17T05:17:46.939Z - Clicked element : State dropdown
+[INFO] 2025-05-17T05:17:46.986Z - Clicking element : City dropdown
+[INFO] 2025-05-17T05:17:47.038Z - Clicked element : City dropdown
+[INFO] 2025-05-17T05:17:47.081Z - Clicking element : Submit Button
+[INFO] 2025-05-17T05:17:47.147Z - Clicked element : Submit Button
+[INFO] 2025-05-17T05:17:47.157Z - Value John Doe found on submitted form modal for label Student Name
+[INFO] 2025-05-17T05:17:47.164Z - Value john.doe@example.com found on submitted form modal for label Student Email
+[INFO] 2025-05-17T05:17:47.174Z - Value Male found on submitted form modal for label Gender
+[INFO] 2025-05-17T05:17:47.180Z - Value 1234567890 found on submitted form modal for label Mobile
+[INFO] 2025-05-17T05:17:47.189Z - Value 15 May,1995 found on submitted form modal for label Date of Birth
+[INFO] 2025-05-17T05:17:47.198Z - Value Maths found on submitted form modal for label Subjects
+[INFO] 2025-05-17T05:17:47.207Z - Value Sports found on submitted form modal for label Hobbies
+[INFO] 2025-05-17T05:17:47.212Z - Value picture.jpg found on submitted form modal for label Picture
+[INFO] 2025-05-17T05:17:47.224Z - Value 123 Main Street, City found on submitted form modal for label Address
+[INFO] 2025-05-17T05:17:47.228Z - Value NCR Delhi found on submitted form modal for label State and City
+[INFO] 2025-05-17T05:17:47.556Z - Browser closed ###################################
+[INFO] 2025-05-17T05:17:47.558Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:17:54.464Z - Browser closed ###################################
+[INFO] 2025-05-17T05:23:57.027Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:23:57.499Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:23:59.763Z - Browser closed ###################################
+[INFO] 2025-05-17T05:23:59.764Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:24:02.454Z - Browser closed ###################################
+[INFO] 2025-05-17T05:24:20.594Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:24:21.052Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:24:23.451Z - Clicking element : Form card
+[INFO] 2025-05-17T05:24:23.716Z - Clicked element : Form card
+[INFO] 2025-05-17T05:24:23.717Z - Clicking element : Form link
+[INFO] 2025-05-17T05:24:24.026Z - Clicked element : Form link
+[INFO] 2025-05-17T05:24:25.442Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:24:25.535Z - Filled value : John
+[INFO] 2025-05-17T05:24:25.536Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:24:25.609Z - Filled value : Doe
+[INFO] 2025-05-17T05:24:25.610Z - Clearing and filling for label: Email address
+[INFO] 2025-05-17T05:24:25.681Z - Filled value : john.doe@example.com
+[INFO] 2025-05-17T05:24:25.682Z - Clicking element : Gender
+[INFO] 2025-05-17T05:24:25.739Z - Clicked element : Gender
+[INFO] 2025-05-17T05:24:25.740Z - Clearing and filling for label: Mobile number
+[INFO] 2025-05-17T05:24:25.801Z - Filled value : 1234567890
+[INFO] 2025-05-17T05:24:25.986Z - Filling for label: Subject
+[INFO] 2025-05-17T05:24:26.014Z - Filled value : Maths
+[INFO] 2025-05-17T05:24:28.032Z - Clicking element : Subject Option
+[INFO] 2025-05-17T05:24:28.063Z - Clicked element : Subject Option
+[INFO] 2025-05-17T05:24:28.067Z - Checking element : Hobby checkbox Option
+[INFO] 2025-05-17T05:24:28.118Z - Checked element : Hobby checkbox Option
+[INFO] 2025-05-17T05:24:28.137Z - Filling for label: Current address
+[INFO] 2025-05-17T05:24:28.148Z - Filled value : 123 Main Street, City
+[INFO] 2025-05-17T05:24:28.150Z - Clicking element : State dropdown
+[INFO] 2025-05-17T05:24:28.223Z - Clicked element : State dropdown
+[INFO] 2025-05-17T05:24:28.291Z - Clicking element : City dropdown
+[INFO] 2025-05-17T05:24:28.365Z - Clicked element : City dropdown
+[INFO] 2025-05-17T05:24:28.421Z - Clicking element : Submit Button
+[INFO] 2025-05-17T05:24:28.506Z - Clicked element : Submit Button
+[INFO] 2025-05-17T05:24:28.516Z - Value John Doe found on submitted form modal for label Student Name
+[INFO] 2025-05-17T05:24:28.523Z - Value john.doe@example.com found on submitted form modal for label Student Email
+[INFO] 2025-05-17T05:24:28.530Z - Value Male found on submitted form modal for label Gender
+[INFO] 2025-05-17T05:24:28.537Z - Value 1234567890 found on submitted form modal for label Mobile
+[INFO] 2025-05-17T05:24:28.543Z - Value 15 May,1995 found on submitted form modal for label Date of Birth
+[INFO] 2025-05-17T05:24:28.556Z - Value Maths found on submitted form modal for label Subjects
+[INFO] 2025-05-17T05:24:28.562Z - Value Sports found on submitted form modal for label Hobbies
+[INFO] 2025-05-17T05:24:28.571Z - Value picture.jpg found on submitted form modal for label Picture
+[INFO] 2025-05-17T05:24:28.578Z - Value 123 Main Street, City found on submitted form modal for label Address
+[INFO] 2025-05-17T05:24:28.585Z - Value NCR Delhi found on submitted form modal for label State and City
+[INFO] 2025-05-17T05:24:28.953Z - Browser closed ###################################
+[INFO] 2025-05-17T05:24:28.956Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:24:35.822Z - Browser closed ###################################
+[INFO] 2025-05-17T05:30:26.596Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:30:27.037Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:30:29.056Z - Clicking element : Form card
+[INFO] 2025-05-17T05:30:29.311Z - Clicked element : Form card
+[INFO] 2025-05-17T05:30:29.312Z - Clicking element : Form link
+[INFO] 2025-05-17T05:30:29.632Z - Clicked element : Form link
+[INFO] 2025-05-17T05:30:31.163Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:30:31.231Z - Filled value : John
+[INFO] 2025-05-17T05:30:31.231Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:30:31.310Z - Filled value : Doe
+[INFO] 2025-05-17T05:30:31.311Z - Clearing and filling for label: Email address
+[INFO] 2025-05-17T05:30:31.390Z - Filled value : john.doe@example.com
+[INFO] 2025-05-17T05:30:31.391Z - Clicking element : Gender
+[INFO] 2025-05-17T05:30:31.453Z - Clicked element : Gender
+[INFO] 2025-05-17T05:30:31.454Z - Clearing and filling for label: Mobile number
+[INFO] 2025-05-17T05:30:31.535Z - Filled value : 1234567890
+[INFO] 2025-05-17T05:30:31.708Z - Filling for label: Subject
+[INFO] 2025-05-17T05:30:31.740Z - Filled value : Maths
+[INFO] 2025-05-17T05:30:33.745Z - Clicking element : Subject Option
+[INFO] 2025-05-17T05:30:33.781Z - Clicked element : Subject Option
+[INFO] 2025-05-17T05:30:33.787Z - Checking element : Hobby checkbox Option
+[INFO] 2025-05-17T05:30:33.830Z - Checked element : Hobby checkbox Option
+[INFO] 2025-05-17T05:30:33.853Z - Filling for label: Current address
+[INFO] 2025-05-17T05:30:33.867Z - Filled value : 123 Main Street, City
+[INFO] 2025-05-17T05:30:33.867Z - Clicking element : State dropdown
+[INFO] 2025-05-17T05:30:33.922Z - Clicked element : State dropdown
+[INFO] 2025-05-17T05:30:33.987Z - Clicking element : City dropdown
+[INFO] 2025-05-17T05:30:34.055Z - Clicked element : City dropdown
+[INFO] 2025-05-17T05:30:34.113Z - Clicking element : Submit Button
+[INFO] 2025-05-17T05:30:34.180Z - Clicked element : Submit Button
+[INFO] 2025-05-17T05:30:34.189Z - Value John Doe found on submitted form modal for label Student Name
+[INFO] 2025-05-17T05:30:34.195Z - Value john.doe@example.com found on submitted form modal for label Student Email
+[INFO] 2025-05-17T05:30:34.201Z - Value Male found on submitted form modal for label Gender
+[INFO] 2025-05-17T05:30:34.207Z - Value 1234567890 found on submitted form modal for label Mobile
+[INFO] 2025-05-17T05:30:34.222Z - Value 15 May,1995 found on submitted form modal for label Date of Birth
+[INFO] 2025-05-17T05:30:34.227Z - Value Maths found on submitted form modal for label Subjects
+[INFO] 2025-05-17T05:30:34.236Z - Value Sports found on submitted form modal for label Hobbies
+[INFO] 2025-05-17T05:30:34.240Z - Value picture.jpg found on submitted form modal for label Picture
+[INFO] 2025-05-17T05:30:34.243Z - Value 123 Main Street, City found on submitted form modal for label Address
+[INFO] 2025-05-17T05:30:34.250Z - Value NCR Delhi found on submitted form modal for label State and City
+[INFO] 2025-05-17T05:30:34.585Z - Browser closed ###################################
+[INFO] 2025-05-17T05:30:34.587Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:30:38.800Z - Clicking element : Add entry button
+[INFO] 2025-05-17T05:30:38.875Z - Clicked element : Add entry button
+[INFO] 2025-05-17T05:30:38.876Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:30:39.358Z - Filled value : John
+[INFO] 2025-05-17T05:30:39.359Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:30:39.428Z - Filled value : Doe
+[INFO] 2025-05-17T05:30:39.429Z - Clearing and filling for label: Email
+[INFO] 2025-05-17T05:30:39.492Z - Filled value : john@webtable.org
+[INFO] 2025-05-17T05:30:39.493Z - Clearing and filling for label: Age
+[INFO] 2025-05-17T05:30:39.570Z - Filled value : 30
+[INFO] 2025-05-17T05:30:39.571Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T05:30:39.646Z - Filled value : 5000
+[INFO] 2025-05-17T05:30:39.647Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T05:30:39.707Z - Filled value : QA
+[INFO] 2025-05-17T05:30:39.708Z - Clicking element : Submit button
+[INFO] 2025-05-17T05:30:39.768Z - Clicked element : Submit button
+[INFO] 2025-05-17T05:30:39.923Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T05:30:40.357Z - Filled value : 6000
+[INFO] 2025-05-17T05:30:40.358Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T05:30:40.453Z - Filled value : Sr. QA
+[INFO] 2025-05-17T05:30:40.454Z - Clicking element : Submit button
+[INFO] 2025-05-17T05:30:40.511Z - Clicked element : Submit button
+[INFO] 2025-05-17T05:30:40.971Z - Browser closed ###################################
+[INFO] 2025-05-17T05:34:55.006Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:35:26.052Z - Retrying... Attempt 1
+[INFO] 2025-05-17T05:35:36.064Z - Retrying... Attempt 2
+[INFO] 2025-05-17T05:35:36.316Z - Browser closed ###################################
+[INFO] 2025-05-17T05:35:36.318Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:35:40.638Z - Clicking element : Add entry button
+[INFO] 2025-05-17T05:35:40.738Z - Clicked element : Add entry button
+[INFO] 2025-05-17T05:35:40.739Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:35:41.075Z - Retrying... Attempt 3
+[INFO] 2025-05-17T05:35:41.173Z - Filled value : John
+[INFO] 2025-05-17T05:35:41.173Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:35:41.258Z - Filled value : Doe
+[INFO] 2025-05-17T05:35:41.259Z - Clearing and filling for label: Email
+[INFO] 2025-05-17T05:35:41.361Z - Filled value : john@webtable.org
+[INFO] 2025-05-17T05:35:41.361Z - Clearing and filling for label: Age
+[INFO] 2025-05-17T05:35:41.443Z - Filled value : 30
+[INFO] 2025-05-17T05:35:41.444Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T05:35:41.517Z - Filled value : 5000
+[INFO] 2025-05-17T05:35:41.517Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T05:35:41.582Z - Filled value : QA
+[INFO] 2025-05-17T05:35:41.583Z - Clicking element : Submit button
+[INFO] 2025-05-17T05:35:41.665Z - Clicked element : Submit button
+[INFO] 2025-05-17T05:35:41.826Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T05:35:42.288Z - Filled value : 6000
+[INFO] 2025-05-17T05:35:42.289Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T05:35:42.357Z - Filled value : Sr. QA
+[INFO] 2025-05-17T05:35:42.357Z - Clicking element : Submit button
+[INFO] 2025-05-17T05:35:42.430Z - Clicked element : Submit button
+[INFO] 2025-05-17T05:35:42.859Z - Browser closed ###################################
+[INFO] 2025-05-17T05:35:46.079Z - Retrying... Attempt 4
+[INFO] 2025-05-17T05:35:51.095Z - Retrying... Attempt 5
+[INFO] 2025-05-17T05:36:03.895Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:36:04.322Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:36:06.536Z - Clicking element : Form card
+[INFO] 2025-05-17T05:36:06.903Z - Clicked element : Form card
+[INFO] 2025-05-17T05:36:06.904Z - Clicking element : Form link
+[INFO] 2025-05-17T05:36:07.222Z - Clicked element : Form link
+[INFO] 2025-05-17T05:36:08.558Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:36:08.630Z - Filled value : John
+[INFO] 2025-05-17T05:36:08.631Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:36:08.707Z - Filled value : Doe
+[INFO] 2025-05-17T05:36:08.708Z - Clearing and filling for label: Email address
+[INFO] 2025-05-17T05:36:08.780Z - Filled value : john.doe@example.com
+[INFO] 2025-05-17T05:36:08.781Z - Clicking element : Gender
+[INFO] 2025-05-17T05:36:08.823Z - Clicked element : Gender
+[INFO] 2025-05-17T05:36:08.824Z - Clearing and filling for label: Mobile number
+[INFO] 2025-05-17T05:36:08.888Z - Filled value : 1234567890
+[INFO] 2025-05-17T05:36:09.063Z - Filling for label: Subject
+[INFO] 2025-05-17T05:36:09.080Z - Filled value : Maths
+[INFO] 2025-05-17T05:36:11.088Z - Clicking element : Subject Option
+[INFO] 2025-05-17T05:36:11.213Z - Clicked element : Subject Option
+[INFO] 2025-05-17T05:36:11.218Z - Checking element : Hobby checkbox Option
+[INFO] 2025-05-17T05:36:11.258Z - Checked element : Hobby checkbox Option
+[INFO] 2025-05-17T05:36:11.277Z - Filling for label: Current address
+[INFO] 2025-05-17T05:36:11.291Z - Filled value : 123 Main Street, City
+[INFO] 2025-05-17T05:36:11.293Z - Clicking element : State dropdown
+[INFO] 2025-05-17T05:36:11.448Z - Clicked element : State dropdown
+[INFO] 2025-05-17T05:36:11.510Z - Clicking element : City dropdown
+[INFO] 2025-05-17T05:36:11.573Z - Clicked element : City dropdown
+[INFO] 2025-05-17T05:36:11.633Z - Clicking element : Submit Button
+[INFO] 2025-05-17T05:36:11.710Z - Clicked element : Submit Button
+[INFO] 2025-05-17T05:36:11.718Z - Value John Doe found on submitted form modal for label Student Name
+[INFO] 2025-05-17T05:36:11.725Z - Value john.doe@example.com found on submitted form modal for label Student Email
+[INFO] 2025-05-17T05:36:11.732Z - Value Male found on submitted form modal for label Gender
+[INFO] 2025-05-17T05:36:11.738Z - Value 1234567890 found on submitted form modal for label Mobile
+[INFO] 2025-05-17T05:36:11.748Z - Value 15 May,1995 found on submitted form modal for label Date of Birth
+[INFO] 2025-05-17T05:36:11.753Z - Value Maths found on submitted form modal for label Subjects
+[INFO] 2025-05-17T05:36:11.765Z - Value Sports found on submitted form modal for label Hobbies
+[INFO] 2025-05-17T05:36:11.770Z - Value picture.jpg found on submitted form modal for label Picture
+[INFO] 2025-05-17T05:36:11.778Z - Value 123 Main Street, City found on submitted form modal for label Address
+[INFO] 2025-05-17T05:36:11.782Z - Value NCR Delhi found on submitted form modal for label State and City
+[INFO] 2025-05-17T05:36:12.143Z - Browser closed ###################################
+[INFO] 2025-05-17T05:36:12.145Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:36:12.582Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:36:17.337Z - Clicking element : Add entry button
+[INFO] 2025-05-17T05:36:17.444Z - Clicked element : Add entry button
+[INFO] 2025-05-17T05:36:17.445Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:36:17.882Z - Filled value : John
+[INFO] 2025-05-17T05:36:17.883Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:36:17.963Z - Filled value : Doe
+[INFO] 2025-05-17T05:36:17.964Z - Clearing and filling for label: Email
+[INFO] 2025-05-17T05:36:18.029Z - Filled value : john@webtable.org
+[INFO] 2025-05-17T05:36:18.030Z - Clearing and filling for label: Age
+[INFO] 2025-05-17T05:36:18.096Z - Filled value : 30
+[INFO] 2025-05-17T05:36:18.097Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T05:36:18.177Z - Filled value : 5000
+[INFO] 2025-05-17T05:36:18.178Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T05:36:18.248Z - Filled value : QA
+[INFO] 2025-05-17T05:36:18.249Z - Clicking element : Submit button
+[INFO] 2025-05-17T05:36:18.307Z - Clicked element : Submit button
+[INFO] 2025-05-17T05:36:18.573Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T05:36:19.018Z - Filled value : 6000
+[INFO] 2025-05-17T05:36:19.019Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T05:36:19.089Z - Filled value : Sr. QA
+[INFO] 2025-05-17T05:36:19.090Z - Clicking element : Submit button
+[INFO] 2025-05-17T05:36:19.150Z - Clicked element : Submit button
+[INFO] 2025-05-17T05:36:19.679Z - Browser closed ###################################
+[INFO] 2025-05-17T05:44:01.252Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:44:01.713Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:44:03.879Z - Clicking element : Form card
+[INFO] 2025-05-17T05:44:04.194Z - Clicked element : Form card
+[INFO] 2025-05-17T05:44:04.195Z - Clicking element : Form link
+[INFO] 2025-05-17T05:44:04.524Z - Clicked element : Form link
+[INFO] 2025-05-17T05:44:06.067Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:44:06.133Z - Filled value : John
+[INFO] 2025-05-17T05:44:06.134Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:44:06.216Z - Filled value : Doe
+[INFO] 2025-05-17T05:44:06.216Z - Clearing and filling for label: Email address
+[INFO] 2025-05-17T05:44:06.290Z - Filled value : john.doe@example.com
+[INFO] 2025-05-17T05:44:06.290Z - Clicking element : Gender
+[INFO] 2025-05-17T05:44:06.346Z - Clicked element : Gender
+[INFO] 2025-05-17T05:44:06.348Z - Clearing and filling for label: Mobile number
+[INFO] 2025-05-17T05:44:06.423Z - Filled value : 1234567890
+[INFO] 2025-05-17T05:44:06.596Z - Filling for label: Subject
+[INFO] 2025-05-17T05:44:06.630Z - Filled value : Maths
+[INFO] 2025-05-17T05:44:08.647Z - Clicking element : Subject Option
+[INFO] 2025-05-17T05:44:08.692Z - Clicked element : Subject Option
+[INFO] 2025-05-17T05:44:08.699Z - Checking element : Hobby checkbox Option
+[INFO] 2025-05-17T05:44:08.775Z - Checked element : Hobby checkbox Option
+[INFO] 2025-05-17T05:44:08.803Z - Filling for label: Current address
+[INFO] 2025-05-17T05:44:08.825Z - Filled value : 123 Main Street, City
+[INFO] 2025-05-17T05:44:08.825Z - Clicking element : State dropdown
+[INFO] 2025-05-17T05:44:08.886Z - Clicked element : State dropdown
+[INFO] 2025-05-17T05:44:08.949Z - Clicking element : City dropdown
+[INFO] 2025-05-17T05:44:09.008Z - Clicked element : City dropdown
+[INFO] 2025-05-17T05:44:09.064Z - Clicking element : Submit Button
+[INFO] 2025-05-17T05:44:09.127Z - Clicked element : Submit Button
+[INFO] 2025-05-17T05:44:09.136Z - Value John Doe found on submitted form modal for label Student Name
+[INFO] 2025-05-17T05:44:09.142Z - Value john.doe@example.com found on submitted form modal for label Student Email
+[INFO] 2025-05-17T05:44:09.146Z - Value Male found on submitted form modal for label Gender
+[INFO] 2025-05-17T05:44:09.155Z - Value 1234567890 found on submitted form modal for label Mobile
+[INFO] 2025-05-17T05:44:09.165Z - Value 15 May,1995 found on submitted form modal for label Date of Birth
+[INFO] 2025-05-17T05:44:09.173Z - Value Maths found on submitted form modal for label Subjects
+[INFO] 2025-05-17T05:44:09.179Z - Value Sports found on submitted form modal for label Hobbies
+[INFO] 2025-05-17T05:44:09.183Z - Value picture.jpg found on submitted form modal for label Picture
+[INFO] 2025-05-17T05:44:09.191Z - Value 123 Main Street, City found on submitted form modal for label Address
+[INFO] 2025-05-17T05:44:09.196Z - Value NCR Delhi found on submitted form modal for label State and City
+[INFO] 2025-05-17T05:44:09.535Z - Browser closed ###################################
+[INFO] 2025-05-17T05:44:09.537Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:44:10.002Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:44:14.622Z - Clicking element : Add entry button
+[INFO] 2025-05-17T05:44:14.689Z - Clicked element : Add entry button
+[INFO] 2025-05-17T05:44:14.690Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:44:15.170Z - Filled value : John
+[INFO] 2025-05-17T05:44:15.171Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:44:15.243Z - Filled value : Doe
+[INFO] 2025-05-17T05:44:15.244Z - Clearing and filling for label: Email
+[INFO] 2025-05-17T05:44:15.323Z - Filled value : john@webtable.org
+[INFO] 2025-05-17T05:44:15.324Z - Clearing and filling for label: Age
+[INFO] 2025-05-17T05:44:15.436Z - Filled value : 30
+[INFO] 2025-05-17T05:44:15.437Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T05:44:15.505Z - Filled value : 5000
+[INFO] 2025-05-17T05:44:15.505Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T05:44:15.584Z - Filled value : QA
+[INFO] 2025-05-17T05:44:15.584Z - Clicking element : Submit button
+[INFO] 2025-05-17T05:44:15.659Z - Clicked element : Submit button
+[INFO] 2025-05-17T05:44:15.815Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T05:44:16.247Z - Filled value : 6000
+[INFO] 2025-05-17T05:44:16.248Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T05:44:16.319Z - Filled value : Sr. QA
+[INFO] 2025-05-17T05:44:16.320Z - Clicking element : Submit button
+[INFO] 2025-05-17T05:44:16.383Z - Clicked element : Submit button
+[INFO] 2025-05-17T05:44:16.830Z - Browser closed ###################################
+[INFO] 2025-05-17T05:48:11.578Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:48:12.258Z - Browser closed ###################################
+[INFO] 2025-05-17T05:49:09.328Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:49:15.009Z - Browser closed ###################################
+[INFO] 2025-05-17T05:49:54.016Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:49:54.659Z - Browser closed ###################################
+[INFO] 2025-05-17T05:53:17.436Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:53:18.083Z - Browser closed ###################################
+[INFO] 2025-05-17T05:54:24.783Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:54:25.250Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:54:27.284Z - Clicking element : Form card
+[INFO] 2025-05-17T05:54:27.611Z - Clicked element : Form card
+[INFO] 2025-05-17T05:54:27.613Z - Clicking element : Form link
+[INFO] 2025-05-17T05:54:27.930Z - Clicked element : Form link
+[INFO] 2025-05-17T05:54:29.248Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:54:29.311Z - Filled value : John
+[INFO] 2025-05-17T05:54:29.311Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:54:29.390Z - Filled value : Doe
+[INFO] 2025-05-17T05:54:29.391Z - Clearing and filling for label: Email address
+[INFO] 2025-05-17T05:54:29.474Z - Filled value : john.doe@example.com
+[INFO] 2025-05-17T05:54:29.475Z - Clicking element : Gender
+[INFO] 2025-05-17T05:54:29.525Z - Clicked element : Gender
+[INFO] 2025-05-17T05:54:29.526Z - Clearing and filling for label: Mobile number
+[INFO] 2025-05-17T05:54:29.594Z - Filled value : 1234567890
+[INFO] 2025-05-17T05:54:29.752Z - Filling for label: Subject
+[INFO] 2025-05-17T05:54:29.775Z - Filled value : Maths
+[INFO] 2025-05-17T05:54:31.792Z - Clicking element : Subject Option
+[INFO] 2025-05-17T05:54:31.916Z - Clicked element : Subject Option
+[INFO] 2025-05-17T05:54:31.920Z - Checking element : Hobby checkbox Option
+[INFO] 2025-05-17T05:54:31.962Z - Checked element : Hobby checkbox Option
+[INFO] 2025-05-17T05:54:31.980Z - Filling for label: Current address
+[INFO] 2025-05-17T05:54:31.993Z - Filled value : 123 Main Street, City
+[INFO] 2025-05-17T05:54:31.994Z - Clicking element : State dropdown
+[INFO] 2025-05-17T05:54:32.140Z - Clicked element : State dropdown
+[INFO] 2025-05-17T05:54:32.195Z - Clicking element : City dropdown
+[INFO] 2025-05-17T05:54:32.249Z - Clicked element : City dropdown
+[INFO] 2025-05-17T05:54:32.293Z - Clicking element : Submit Button
+[INFO] 2025-05-17T05:54:32.369Z - Clicked element : Submit Button
+[INFO] 2025-05-17T05:54:32.377Z - Value John Doe found on submitted form modal for label Student Name
+[INFO] 2025-05-17T05:54:32.383Z - Value john.doe@example.com found on submitted form modal for label Student Email
+[INFO] 2025-05-17T05:54:32.389Z - Value Male found on submitted form modal for label Gender
+[INFO] 2025-05-17T05:54:32.396Z - Value 1234567890 found on submitted form modal for label Mobile
+[INFO] 2025-05-17T05:54:32.406Z - Value 15 May,1995 found on submitted form modal for label Date of Birth
+[INFO] 2025-05-17T05:54:32.410Z - Value Maths found on submitted form modal for label Subjects
+[INFO] 2025-05-17T05:54:32.420Z - Value Sports found on submitted form modal for label Hobbies
+[INFO] 2025-05-17T05:54:32.427Z - Value picture.jpg found on submitted form modal for label Picture
+[INFO] 2025-05-17T05:54:32.434Z - Value 123 Main Street, City found on submitted form modal for label Address
+[INFO] 2025-05-17T05:54:32.439Z - Value NCR Delhi found on submitted form modal for label State and City
+[INFO] 2025-05-17T05:54:32.769Z - Browser closed ###################################
+[INFO] 2025-05-17T05:54:32.770Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T05:54:33.298Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T05:54:38.508Z - Clicking element : Add entry button
+[INFO] 2025-05-17T05:54:38.583Z - Clicked element : Add entry button
+[INFO] 2025-05-17T05:54:38.584Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T05:54:39.068Z - Filled value : John
+[INFO] 2025-05-17T05:54:39.068Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T05:54:39.146Z - Filled value : Doe
+[INFO] 2025-05-17T05:54:39.146Z - Clearing and filling for label: Email
+[INFO] 2025-05-17T05:54:39.204Z - Filled value : john@webtable.org
+[INFO] 2025-05-17T05:54:39.204Z - Clearing and filling for label: Age
+[INFO] 2025-05-17T05:54:39.279Z - Filled value : 30
+[INFO] 2025-05-17T05:54:39.280Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T05:54:39.363Z - Filled value : 5000
+[INFO] 2025-05-17T05:54:39.363Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T05:54:39.428Z - Filled value : QA
+[INFO] 2025-05-17T05:54:39.429Z - Clicking element : Submit button
+[INFO] 2025-05-17T05:54:39.491Z - Clicked element : Submit button
+[INFO] 2025-05-17T05:54:39.651Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T05:54:40.114Z - Filled value : 6000
+[INFO] 2025-05-17T05:54:40.115Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T05:54:40.179Z - Filled value : Sr. QA
+[INFO] 2025-05-17T05:54:40.180Z - Clicking element : Submit button
+[INFO] 2025-05-17T05:54:40.224Z - Clicked element : Submit button
+[INFO] 2025-05-17T05:54:40.634Z - Browser closed ###################################
+[INFO] 2025-05-17T07:29:50.400Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T07:29:51.373Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T07:29:51.689Z - Browser closed ###################################
+[INFO] 2025-05-17T07:32:18.663Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T07:32:19.170Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T07:32:22.717Z - Clicking element : Form card
+[INFO] 2025-05-17T07:32:22.854Z - Clicked element : Form card
+[INFO] 2025-05-17T07:32:22.854Z - Clicking element : Form link
+[INFO] 2025-05-17T07:32:23.046Z - Clicked element : Form link
+[INFO] 2025-05-17T07:32:44.129Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T07:32:44.236Z - Filled value : John
+[INFO] 2025-05-17T07:32:44.237Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T07:32:44.342Z - Filled value : Doe
+[INFO] 2025-05-17T07:32:44.343Z - Clearing and filling for label: Email address
+[INFO] 2025-05-17T07:32:44.436Z - Filled value : john.doe@example.com
+[INFO] 2025-05-17T07:32:44.437Z - Clicking element : Gender
+[INFO] 2025-05-17T07:32:44.494Z - Clicked element : Gender
+[INFO] 2025-05-17T07:32:44.495Z - Clearing and filling for label: Mobile number
+[INFO] 2025-05-17T07:32:44.595Z - Filled value : 1234567890
+[INFO] 2025-05-17T07:32:44.849Z - Filling for label: Subject
+[INFO] 2025-05-17T07:32:44.868Z - Filled value : Maths
+[INFO] 2025-05-17T07:32:46.873Z - Clicking element : Subject Option
+[INFO] 2025-05-17T07:32:47.040Z - Clicked element : Subject Option
+[INFO] 2025-05-17T07:32:47.048Z - Checking element : Hobby checkbox Option
+[INFO] 2025-05-17T07:32:47.143Z - Checked element : Hobby checkbox Option
+[INFO] 2025-05-17T07:32:47.193Z - Filling for label: Current address
+[INFO] 2025-05-17T07:32:47.226Z - Filled value : 123 Main Street, City
+[INFO] 2025-05-17T07:32:47.228Z - Clicking element : State dropdown
+[INFO] 2025-05-17T07:32:47.428Z - Clicked element : State dropdown
+[INFO] 2025-05-17T07:32:47.515Z - Clicking element : City dropdown
+[INFO] 2025-05-17T07:32:47.605Z - Clicked element : City dropdown
+[INFO] 2025-05-17T07:32:47.716Z - Clicking element : Submit Button
+[INFO] 2025-05-17T07:32:47.794Z - Clicked element : Submit Button
+[INFO] 2025-05-17T07:32:47.807Z - Value John Doe found on submitted form modal for label Student Name
+[INFO] 2025-05-17T07:32:47.815Z - Value john.doe@example.com found on submitted form modal for label Student Email
+[INFO] 2025-05-17T07:32:47.824Z - Value Male found on submitted form modal for label Gender
+[INFO] 2025-05-17T07:32:47.832Z - Value 1234567890 found on submitted form modal for label Mobile
+[INFO] 2025-05-17T07:32:47.842Z - Value 15 May,1995 found on submitted form modal for label Date of Birth
+[INFO] 2025-05-17T07:32:47.852Z - Value Maths found on submitted form modal for label Subjects
+[INFO] 2025-05-17T07:32:47.860Z - Value Sports found on submitted form modal for label Hobbies
+[INFO] 2025-05-17T07:32:47.875Z - Value picture.jpg found on submitted form modal for label Picture
+[INFO] 2025-05-17T07:32:47.884Z - Value 123 Main Street, City found on submitted form modal for label Address
+[INFO] 2025-05-17T07:32:47.889Z - Value NCR Delhi found on submitted form modal for label State and City
+[INFO] 2025-05-17T07:32:48.406Z - Browser closed ###################################
+[INFO] 2025-05-17T07:32:48.408Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T07:32:48.413Z - Browser closed ###################################
+[INFO] 2025-05-17T07:33:10.630Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T07:33:11.212Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T07:33:15.917Z - Clicking element : Form card
+[INFO] 2025-05-17T07:33:16.143Z - Clicked element : Form card
+[INFO] 2025-05-17T07:33:16.144Z - Clicking element : Form link
+[INFO] 2025-05-17T07:33:16.479Z - Clicked element : Form link
+[INFO] 2025-05-17T07:33:20.748Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T07:33:20.828Z - Filled value : John
+[INFO] 2025-05-17T07:33:20.829Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T07:33:20.915Z - Filled value : Doe
+[INFO] 2025-05-17T07:33:20.916Z - Clearing and filling for label: Email address
+[INFO] 2025-05-17T07:33:20.988Z - Filled value : john.doe@example.com
+[INFO] 2025-05-17T07:33:20.989Z - Clicking element : Gender
+[INFO] 2025-05-17T07:33:21.034Z - Clicked element : Gender
+[INFO] 2025-05-17T07:33:21.035Z - Clearing and filling for label: Mobile number
+[INFO] 2025-05-17T07:33:21.097Z - Filled value : 1234567890
+[INFO] 2025-05-17T07:33:21.544Z - Filling for label: Subject
+[INFO] 2025-05-17T07:33:21.588Z - Filled value : Maths
+[INFO] 2025-05-17T07:33:23.603Z - Clicking element : Subject Option
+[INFO] 2025-05-17T07:33:23.673Z - Clicked element : Subject Option
+[INFO] 2025-05-17T07:33:23.679Z - Checking element : Hobby checkbox Option
+[INFO] 2025-05-17T07:33:23.736Z - Checked element : Hobby checkbox Option
+[INFO] 2025-05-17T07:33:23.773Z - Filling for label: Current address
+[INFO] 2025-05-17T07:33:23.794Z - Filled value : 123 Main Street, City
+[INFO] 2025-05-17T07:33:23.795Z - Clicking element : State dropdown
+[INFO] 2025-05-17T07:33:23.872Z - Clicked element : State dropdown
+[INFO] 2025-05-17T07:33:24.037Z - Clicking element : City dropdown
+[INFO] 2025-05-17T07:33:24.114Z - Clicked element : City dropdown
+[INFO] 2025-05-17T07:33:24.202Z - Clicking element : Submit Button
+[INFO] 2025-05-17T07:33:24.328Z - Clicked element : Submit Button
+[INFO] 2025-05-17T07:33:24.346Z - Value John Doe found on submitted form modal for label Student Name
+[INFO] 2025-05-17T07:33:24.357Z - Value john.doe@example.com found on submitted form modal for label Student Email
+[INFO] 2025-05-17T07:33:24.367Z - Value Male found on submitted form modal for label Gender
+[INFO] 2025-05-17T07:33:24.375Z - Value 1234567890 found on submitted form modal for label Mobile
+[INFO] 2025-05-17T07:33:24.393Z - Value 15 May,1995 found on submitted form modal for label Date of Birth
+[INFO] 2025-05-17T07:33:24.405Z - Value Maths found on submitted form modal for label Subjects
+[INFO] 2025-05-17T07:33:24.412Z - Value Sports found on submitted form modal for label Hobbies
+[INFO] 2025-05-17T07:33:24.419Z - Value picture.jpg found on submitted form modal for label Picture
+[INFO] 2025-05-17T07:33:24.425Z - Value 123 Main Street, City found on submitted form modal for label Address
+[INFO] 2025-05-17T07:33:24.433Z - Value NCR Delhi found on submitted form modal for label State and City
+[INFO] 2025-05-17T07:33:24.907Z - Browser closed ###################################
+[INFO] 2025-05-17T07:33:24.910Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T07:33:24.918Z - Browser closed ###################################
+[INFO] 2025-05-17T07:33:48.191Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T07:33:48.639Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T07:33:51.968Z - Clicking element : Form card
+[INFO] 2025-05-17T07:33:52.334Z - Clicked element : Form card
+[INFO] 2025-05-17T07:33:52.335Z - Clicking element : Form link
+[INFO] 2025-05-17T07:33:52.654Z - Clicked element : Form link
+[INFO] 2025-05-17T07:34:13.222Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T07:34:13.340Z - Filled value : John
+[INFO] 2025-05-17T07:34:13.341Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T07:34:13.480Z - Filled value : Doe
+[INFO] 2025-05-17T07:34:13.481Z - Clearing and filling for label: Email address
+[INFO] 2025-05-17T07:34:13.575Z - Filled value : john.doe@example.com
+[INFO] 2025-05-17T07:34:13.576Z - Clicking element : Gender
+[INFO] 2025-05-17T07:34:13.656Z - Clicked element : Gender
+[INFO] 2025-05-17T07:34:13.657Z - Clearing and filling for label: Mobile number
+[INFO] 2025-05-17T07:34:13.726Z - Filled value : 1234567890
+[INFO] 2025-05-17T07:34:13.932Z - Filling for label: Subject
+[INFO] 2025-05-17T07:34:13.952Z - Filled value : Maths
+[INFO] 2025-05-17T07:34:15.966Z - Clicking element : Subject Option
+[INFO] 2025-05-17T07:34:16.034Z - Clicked element : Subject Option
+[INFO] 2025-05-17T07:34:16.040Z - Checking element : Hobby checkbox Option
+[INFO] 2025-05-17T07:34:16.111Z - Checked element : Hobby checkbox Option
+[INFO] 2025-05-17T07:34:16.135Z - Filling for label: Current address
+[INFO] 2025-05-17T07:34:16.163Z - Filled value : 123 Main Street, City
+[INFO] 2025-05-17T07:34:16.163Z - Clicking element : State dropdown
+[INFO] 2025-05-17T07:34:16.252Z - Clicked element : State dropdown
+[INFO] 2025-05-17T07:34:16.324Z - Clicking element : City dropdown
+[INFO] 2025-05-17T07:34:16.408Z - Clicked element : City dropdown
+[INFO] 2025-05-17T07:34:16.475Z - Clicking element : Submit Button
+[INFO] 2025-05-17T07:34:16.558Z - Clicked element : Submit Button
+[INFO] 2025-05-17T07:34:16.573Z - Value John Doe found on submitted form modal for label Student Name
+[INFO] 2025-05-17T07:34:16.589Z - Value john.doe@example.com found on submitted form modal for label Student Email
+[INFO] 2025-05-17T07:34:16.605Z - Value Male found on submitted form modal for label Gender
+[INFO] 2025-05-17T07:34:16.612Z - Value 1234567890 found on submitted form modal for label Mobile
+[INFO] 2025-05-17T07:34:16.622Z - Value 15 May,1995 found on submitted form modal for label Date of Birth
+[INFO] 2025-05-17T07:34:16.630Z - Value Maths found on submitted form modal for label Subjects
+[INFO] 2025-05-17T07:34:16.650Z - Value Sports found on submitted form modal for label Hobbies
+[INFO] 2025-05-17T07:34:16.666Z - Value picture.jpg found on submitted form modal for label Picture
+[INFO] 2025-05-17T07:34:16.681Z - Value 123 Main Street, City found on submitted form modal for label Address
+[INFO] 2025-05-17T07:34:16.690Z - Value NCR Delhi found on submitted form modal for label State and City
+[INFO] 2025-05-17T07:34:17.031Z - Browser closed ###################################
+[INFO] 2025-05-17T07:34:17.032Z - Launching browser: chromium, headless: false
+[INFO] 2025-05-17T07:34:17.493Z - Navigating to: https://demoqa.com
+[INFO] 2025-05-17T07:34:44.388Z - Clicking element : Add entry button
+[INFO] 2025-05-17T07:34:44.572Z - Clicked element : Add entry button
+[INFO] 2025-05-17T07:34:44.574Z - Clearing and filling for label: First name
+[INFO] 2025-05-17T07:34:44.986Z - Filled value : John
+[INFO] 2025-05-17T07:34:44.987Z - Clearing and filling for label: Last name
+[INFO] 2025-05-17T07:34:45.098Z - Filled value : Doe
+[INFO] 2025-05-17T07:34:45.099Z - Clearing and filling for label: Email
+[INFO] 2025-05-17T07:34:45.211Z - Filled value : john@webtable.org
+[INFO] 2025-05-17T07:34:45.212Z - Clearing and filling for label: Age
+[INFO] 2025-05-17T07:34:45.332Z - Filled value : 30
+[INFO] 2025-05-17T07:34:45.332Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T07:34:45.471Z - Filled value : 5000
+[INFO] 2025-05-17T07:34:45.473Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T07:34:45.553Z - Filled value : QA
+[INFO] 2025-05-17T07:34:45.555Z - Clicking element : Submit button
+[INFO] 2025-05-17T07:34:45.670Z - Clicked element : Submit button
+[INFO] 2025-05-17T07:34:45.870Z - Clearing and filling for label: Salary
+[INFO] 2025-05-17T07:34:46.331Z - Filled value : 6000
+[INFO] 2025-05-17T07:34:46.332Z - Clearing and filling for label: Department
+[INFO] 2025-05-17T07:34:46.449Z - Filled value : Sr. QA
+[INFO] 2025-05-17T07:34:46.451Z - Clicking element : Submit button
+[INFO] 2025-05-17T07:34:46.555Z - Clicked element : Submit button
+[INFO] 2025-05-17T07:34:47.245Z - Browser closed ###################################

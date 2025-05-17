@@ -1,0 +1,24 @@
+{
+  "name": "cover_go",
+  "version": "1.0.0",
+  "description": "Playwright automation framework using TypeScript, Mocha, and Page Object Model",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.test.ts --reporter mochawesome --reporter-options reportDir=mocha-report,reportFilename=report,quiet=true"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/minimist": "^1.2.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.11.19",
+    "chai": "^4.3.7",
+    "minimist": "^1.2.8",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "playwright": "^1.43.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
