@@ -4,16 +4,16 @@ import {Input} from "../elements/input";
 import {Utils} from "../utils/utils";
 
 export class WebTablePage extends Utils{
-    readonly page: Page;
-    readonly addButton: Button;
-    readonly submitButton: Button;
-    readonly firstNameInput: Input;
-    readonly lastNameInput: Input;
-    readonly emailInput: Input;
-    readonly ageInput: Input;
-    readonly salaryInput: Input;
-    readonly departmentInput: Input;
-    readonly tableBodyRows: Locator;
+    private readonly page: Page;
+    private readonly addButton: Button;
+    private readonly submitButton: Button;
+    private readonly firstNameInput: Input;
+    private readonly lastNameInput: Input;
+    private readonly emailInput: Input;
+    private readonly ageInput: Input;
+    private readonly salaryInput: Input;
+    private readonly departmentInput: Input;
+    private readonly tableBodyRows: Locator;
 
     constructor(page: Page) {
         super();
