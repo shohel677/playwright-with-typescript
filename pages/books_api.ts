@@ -12,7 +12,7 @@ export class BooksAPI extends Utils{
             password: password
         });
         this.userId = res.data.userID;
-        return res; // returning full response
+        return res;
     }
 
     async generateToken(username: string, password: string): Promise<AxiosResponse> {
@@ -21,14 +21,14 @@ export class BooksAPI extends Utils{
             password: password
         });
         this.token = res.data.token;
-        return res; // returning full response
+        return res;
     }
 
     async getBooks() {
         const res = await axios.get(`${this.baseURL}/BookStore/v1/Books`);
         Utils.logger.info('Response body : ' + JSON.stringify(res.data, null, 2));
         Utils.logger.info('Response status : '+ res.status);
-        return res.data.books; // still returning only data here
+        return res.data.books;
     }
 
     async getBookByISBN(isbn: string) {
